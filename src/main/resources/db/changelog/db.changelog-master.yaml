@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/1-user.sql
+  - include:
+      file: db/changelog/changes/2-skill.sql
+  - include:
+      file: db/changelog/changes/3-user-skill.sql
+  - include:
+      file: db/changelog/changes/4-event.sql
+  - include:
+      file: db/changelog/changes/5-event-skill.sql
+  - include:
+      file: db/changelog/changes/6-application.sql
+  - include:
+      file: db/changelog/changes/7-test-data.sql
